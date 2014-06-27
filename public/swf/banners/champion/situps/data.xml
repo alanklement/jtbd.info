@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<products>
+	<product>
+		<big_img>01.jpg</big_img>
+		<thumb_img>01.png</thumb_img>	
+		<h1><![CDATA[Double Dry® Seamless Sports Bra]]></h1>
+		<h2><![CDATA[Double Dry® Seamless<br />Sports Bra]]></h2>
+		<description><![CDATA[High support.<br />Keeps cool and dry.<br />Chafe-resistant.]]></description>
+		<url>http://www.championusa.com/Champion/Products/CH2893.aspx</url>
+	</product>
+	<product>
+		<big_img>02.jpg</big_img>
+		<thumb_img>02.png</thumb_img>		
+		<h1><![CDATA[Double Dry® Sport Shorts]]></h1>
+		<h2><![CDATA[Double Dry® Sport Shorts]]></h2>
+		<description><![CDATA[Breathable mesh panels.<br />Keeps you cool and dry.<br />Available in more colors.]]></description>
+		<url>http://www.championusa.com/Champion/Products/CH3853.aspx</url>
+	</product>
+	<product>
+		<big_img>03.jpg</big_img>
+		<thumb_img>03.png</thumb_img>		
+		<h1><![CDATA[Double Dry® Workout Shorts]]></h1>
+		<h2><![CDATA[Double Dry® Workout Shorts]]></h2>
+		<description><![CDATA[Low-rise.<br />Wide comfort waistband.<br />Keeps you cool and dry.]]></description>
+		<url>http://www.championusa.com/Champion/Products/CH3874.aspx</url>
+	</product>
+	<product>
+		<big_img>04.jpg</big_img>
+		<thumb_img>04.png</thumb_img>		
+		<h1><![CDATA[Double Dry® Long Top ]]></h1>
+		<h2><![CDATA[Double Dry® Long Top ]]></h2>
+		<description><![CDATA[Keeps you cool and dry. Built-in medium support bra. Available in more colors.]]></description>
+		<url>http://www.championusa.com/Champion/Products/CH7814.aspx</url>
+	</product>
+	<product>
+		<big_img>05.jpg</big_img>
+		<thumb_img>05.png</thumb_img>		
+		<h1><![CDATA[Field Shorts]]></h1>
+		<h2><![CDATA[Field Shorts]]></h2>
+		<description><![CDATA[Keeps you cool and dry.<br />Contrasting side panels.<br />Available in more colors.]]></description>
+		<url>http://www.championusa.com/Champion/Products/CH8209.aspx</url>
+	</product>
+	<product>
+		<big_img>06.jpg</big_img>
+		<thumb_img>06.png</thumb_img>		
+		<h1><![CDATA[High Performance Low-Cut Socks]]></h1>
+		<h2><![CDATA[High Performance Low-Cut Socks]]></h2>
+		<description><![CDATA[Keeps feet cool and dry.<br />Spandex for better fit. Cushioning for high impact comfort.]]></description>
+		<url>http://www.championusa.com/Champion/Products/CH2973.aspx</url>
+	</product>
+</products>
