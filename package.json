@@ -1,6 +1,6 @@
 {
   "name": "jtbd.info",
-  "version": "0.0.0-15",
+  "version": "0.0.0-19",
   "description": "jtbd.info ===============",
   "main": "server.js",
   "scripts": {
