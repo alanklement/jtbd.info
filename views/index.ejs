@@ -4,18 +4,15 @@
 		<% include partials/template/head.ejs %>
 	</head>
 	<body>
-		<% include partials/template/header.ejs %>
-		<section class="layout">
-			<div class="intro">
-				<% include partials/content/intro.ejs %>						
-			</div>
-			<aside class="secondary">
-				
-				<div>asperiores deserunt et eveniet labore vitae, ipsam voluptatum magnam deleniti eligendi blanditiis voluptatibus! Veritatis corrupti, voluptate laboriosam. Laudantium distinctio, nam consectetur dolorem necessitatibus sequi maxime perferendis quaerat expedita quas?</div>
-
-			</aside>
-		</section>
-		<%	include partials/template/footer.ejs %>
+		<div class="container-fluid">
+			<% include partials/template/header.ejs %>
+			<section>
+				<div>
+					<% include partials/content/intro.ejs %>						
+				</div>
+			</section>
+			<%	include partials/template/footer.ejs %>
+		</div>
 		<%	include partials/template/jsdefaults.ejs %>
 	</body>
 </html>
