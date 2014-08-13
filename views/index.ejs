@@ -3,16 +3,9 @@
 	<head>
 		<% include partials/template/head.ejs %>
 	</head>
-	<body>
-		<div class="container-fluid">
-			<% include partials/template/header.ejs %>
-			<section>
-				<div>
-					<% include partials/content/intro.ejs %>						
-				</div>
-			</section>
-			<%	include partials/template/footer.ejs %>
-		</div>
-		<%	include partials/template/jsdefaults.ejs %>
+	<body class="container-fluid">
+			<% include partials/content/header.ejs %>
+			<% include partials/content/footer.ejs %>
+			<% include partials/template/jsdefaults.ejs %>
 	</body>
 </html>
