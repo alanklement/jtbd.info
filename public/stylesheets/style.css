@@ -1,60 +1,56 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Roboto:300,400|Fjalla+One);
-body {
-  /*padding: 50px;*/
-  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
-  font-family: 'Fjalla One', sans-serif;
-  color: #f5f5f5;
-}
 
-a {
-  /*color: #00B7FF;*/
-}
-
-p{
+body{
+	/*padding: 50px;*/
+	/*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+	/*font-family: 'Fjalla One', sans-serif;*/
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 18px;
-
+	font-weight: 200;
+	color: #f5f5f5; 
+	background-color: #455a64;
+	font-size: 16px;
 }
 
-#headline{
-	background-color: #303f9f;
+h1{
+	/*font-family: 'Fjalla One', sans-serif;*/
+	font-size: 40px;
 }
 
-#intro{
-
-	background-color: #303f9f;
+h2{
+	font-size: 30px;
 }
 
-#intro .lead{
-	font-family: 'Fjalla One', sans-serif;
-}
-
-#intro img{
-	/*width: 100%;*/
-	height: 600px;
-}
-
-#who-use{
-	background-color: #00796b;
-}
-
-#who-use-boxes{
-	background-color: #00796b;
-}
-
-#who-use-boxes h4{
+img{
+	margin-top: 20px;
+	margin-bottom: 10px;
 	text-align: center;
-}
-
-#focus-customer{
-	background-color: #303f9f;
-}
-
-#focus-customer img{
 	width: 100%;
 }
 
+section{
+	margin-top: 100px;
+}
+
+/*.intro h1, h2{
+
+}
+*/
+#the-pitch{
+	/*padding-bottom: 100px;*/
+}
+
+#sub-pitch{
+	margin-top: 50px;
+}
+
+#focus-customer{
+
+	/*margin-top: 150px;*/
+}
+
+
+
+/*
 #jtbd-framework-intro{
 	background-color: #455a64;
 }
@@ -62,6 +58,14 @@ p{
 #jtbd-framework-intro h1{
 	font-family: 'Shadows Into Light', cursive;
 	color: #e64a19;
+}
+*/
+
+
+
+.important{
+	/*font-style: italic;*/
+	font-weight:600; 
 }
 
 .jtbd-focus{
