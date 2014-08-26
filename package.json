@@ -1,6 +1,6 @@
 {
   "name": "jtbd.info",
-  "version": "0.1.2-0",
+  "version": "0.1.11-0",
   "main": "./bin/www",
   "scripts": {
     "start": "node ./bin/www"
@@ -15,10 +15,11 @@
   },
   "domains": [
     "jtbd.info",
+    "jobstobedone.info",
     "www.jtbd.info"
   ],
-  "subdomain": "jtbd.info",
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "subdomain": "jtbd"
 }

@@ -1,109 +1,88 @@
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Roboto:300,400|Fjalla+One);
-
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Roboto:400,100,100italic,400italic,500,500italic|Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 body{
-	/*padding: 50px;*/
-	/*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
-	/*font-family: 'Fjalla One', sans-serif;*/
+	line-height: 1.7857;
+	letter-spacing: .3px;
+	font-size: 17px;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 200;
-	color: #f5f5f5; 
-	background-color: #455a64;
-	font-size: 16px;
 }
 
-h1{
-	/*font-family: 'Fjalla One', sans-serif;*/
-	font-size: 40px;
+h1, h2, h3{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 50px;
+	letter-spacing: .8px;
+	line-height: 130%;
 }
 
 h2{
-	font-size: 30px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 40px;
 }
+
+h3{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 25px;
+}
+
 
 img{
 	margin-top: 20px;
 	margin-bottom: 10px;
 	text-align: center;
+}
+
+.light{
+	background-color: #f5f5f5;
+}
+
+.light h2{
+	color: #646464;
+}
+
+.light p{
+	color: #646464;
+}
+
+.hot{
+	/*color: #e64a19;*/
+	/*color: #ff3d00;*/
+	/*color: #ff6e40;*/
+	color: #ff8a65;
+	font-weight: 400;
+	
+	/*color: #ff5722;*/
+}
+
+.keyword{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 125%;
+}
+
+.emphasis{
+	font-style: italic;
+}
+
+.full-img img{
 	width: 100%;
 }
 
-section{
-	/*margin-top: 100px;*/
+#header{
+	padding: 150px 0px 100px;
+	color: #f5f5f5;
+	background: #607d8b
+	url(/images/speech-bubbles-50.png) 
+	repeat 50% 0;
 }
 
-/*.intro h1, h2{
-
-}
-*/
-#the-pitch{
-	/*padding-bottom: 100px;*/
+#header p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
-#sub-pitch{
-	margin-top: 50px;
-}
-
-#focus-customer{
-
-	/*margin-top: 150px;*/
-}
-
-#principals-jobs-container img{
-	padding: 40px;
-}
-
-#practices-forces-diagram img{
-	padding: 40px; 
-}
-
-
-/*
-#jtbd-framework-intro{
-	background-color: #455a64;
-}
-
-#jtbd-framework-intro h1{
-	font-family: 'Shadows Into Light', cursive;
-	color: #e64a19;
-}
-*/
-
-
-
-.important{
-	/*font-style: italic;*/
-	font-weight:600; 
-}
-
-.jtbd-focus{
-	padding-top: 50px;
-	text-align: center;
-	background-color: #512da8;
-	color: black;
-	font-family: 'Shadows Into Light', cursive;
-}
-
-.jtbd-focus p{
-
-	font-size: 25px;
-	font-family: 'Shadows Into Light', cursive;
-}
-
-.jtbd-focus .panel-title{
-	font-size: 40px;
-}
-
-.uber-text{
-	font-size: 100px;
-	font-family: 'Shadows Into Light', cursive;
-}
-
-#principes-the-job{
-	background-color: #607d8b;
-}
-
-#principes-the-job img{
-	width: 100%;
+#lead p{
+	margin: 0px auto 100px;
+	max-width: 800px;
+	font-size: 24px;
 }
 
 
