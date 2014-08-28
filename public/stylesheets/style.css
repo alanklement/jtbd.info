@@ -24,11 +24,28 @@ h3{
 	font-size: 25px;
 }
 
+h1 small{
+	color: #AAA;
+	font-size: 35%;
+}
 
 img{
 	/*margin-top: 20px;*/
 	/*margin-bottom: 10px;*/
 	text-align: center;
+}
+
+.panel-jtbd{
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);	
+	border: 5px solid #F1E2F1;
+	background-color: #F0E8F0;
+}
+
+.panel-jtbd-head{
+	background-color: #F0E8F0 !important;
+	/*border-bottom: 1px solid orange !important;*/
 }
 
 .hot{
@@ -41,6 +58,10 @@ img{
 	/*color: #ff5722;*/
 }
 
+.bigger{
+	font-size: 150%;
+}
+
 .keyword{
 	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 125%;
@@ -48,6 +69,10 @@ img{
 
 .emphasis{
 	font-style: italic;
+}
+
+.heavy6{
+	font-weight: 600;
 }
 
 .full-img img{
@@ -102,35 +127,158 @@ img{
 }
 
 #framework-intro h1{
+	text-align: center;
+}
+
+#framework-intro h1{
 	margin: 25px 0px 50px;
 	
 }
 
-#framework-intro p{
+#framework-intro h2{
+	font-size: 50px;
+}
+
+#framework-intro h3{
+	font-size: 30px;
+}
+
+#framework-intro p, li{
 	color: #646464;
 }
 
-
-/*.framework-intro h2{
-	margin-top: 0;
-}
-*/
 /*principes-job*/
 
 #principes-job h1{
 	font-size: 100px;
 }
 
+#principes-job img{
+	width: 100%;
+}
+
+#principes-jobs-holder{
+	margin: 50px 0;
+	text-align: center;
+}
+
 /*what-focus*/
 
 #what-focus{
-	background-color: #F5F2F4; 
+	padding: 100px 0px 100px;
+	/*background-color: #F5F2F4; */
+}
+
+#what-focus h2{
+	color: #813D81;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 45px;
+}
+
+#what-focus p{
+	/*font-family: 'Shadows Into Light Two', cursive;*/
+	/*font-size: 20px;*/
 }
 
 .panel-head{
 	color: #333;
 	background-color: #f5f5f5;
 	border-color: #ddd;
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+
+/*who-use-jtbd*/
+
+#who-use-jtbd{
+	padding: 50px 0px 100px;
+	/*background-color: #607d8b;*/
+}
+
+#who-use-jtbd h1{
+	font-size: 80px;
+	font-family: 'Shadows Into Light Two', cursive;
+	/*background-color: #607d8b;*/
+}
+
+/*header-principals*/
+
+
+#header-principals{
+	padding: 100px 0px 150px;	
+	background-color: #607d8b;
+}
+
+#header-principals h1{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 150px;
+	color: #b2dfdb;
+}
+
+#header-principals p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ff9800;
+}
+
+/*principes-job*/
+
+
+#principes-job{
+	padding: 50px 0px 100px;
+}
+
+#principes-job h1{
+	font-size: 140px;
+}
+
+#principes-jobs-summary{
+	text-align: center;
+}
+
+#principes-jobs-summary h3{
+	font-size: 30px;
+}
+
+
+/*principes-the-hire-fire*/
+
+#principes-the-hire-fire{
+	padding: 50px 0px 100px;
+	border: 1px solid #eee
+}
+
+#principes-the-hire-fire h1{
+	text-align: center;
+	font-size: 140px;
+}
+
+#hire-container{
+
+}
+
+#fire-container{
+	margin-top: 50px;
+}
+
+
+/*principes-big-hire-little-hire*/
+
+#principes-big-hire-little-hire{
+	background-color: #ebdceb;
+}
+
+#principes-the-hire-fire img{
+	/*border: 1px solid #BAC8DE;*/
+	width: 100%;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 @media (max-width: 768px) {

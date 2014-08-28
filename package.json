@@ -1,6 +1,6 @@
 {
   "name": "jtbd.info",
-  "version": "0.1.15",
+  "version": "0.1.26",
   "main": "./bin/www",
   "scripts": {
     "start": "node ./bin/www"
