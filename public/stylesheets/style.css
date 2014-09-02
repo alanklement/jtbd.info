@@ -35,6 +35,20 @@ img{
 	text-align: center;
 }
 
+a:hover{
+  text-decoration:none;
+  color: #934289;
+}
+
+
+.keyword-link{
+	color: #ff8a65;
+	font-size: 150%;
+    /*text-decoration: underline;*/
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
 .panel-jtbd{
 	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -81,6 +95,18 @@ img{
 
 .super{
 	font-size: 70px;
+}
+
+.vertical-arrow{
+	height:101px; width:31px; margin:auto;
+}
+
+.fa{
+	color: rgb(219, 217, 217);
+}
+
+.small{
+	color: rgb(199, 199, 199);
 }
 
 /*****
@@ -147,21 +173,6 @@ img{
 	color: #646464;
 }
 
-/*principes-job*/
-
-#principes-job h1{
-	font-size: 100px;
-}
-
-#principes-job img{
-	width: 100%;
-}
-
-#principes-jobs-holder{
-	margin: 50px 0;
-	text-align: center;
-}
-
 /*what-focus*/
 
 #what-focus{
@@ -204,6 +215,7 @@ img{
 	/*background-color: #607d8b;*/
 }
 
+
 /*header-principals*/
 
 
@@ -222,56 +234,85 @@ img{
 #header-principals p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	font-size: 20px;
-	color: #ff9800;
+	font-size: 18px;
+	color: #CECECE;
 }
+
+
+/********************principals*/
+
+.principals{
+	padding: 50px 0px 100px;
+}
+
+.principals h1{
+	font-size: 140px;
+	color: #ff8a65;
+}
+
+.principals h3{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.principals img{
+	text-align: center;
+	width: 100%;
+}
+
 
 /*principes-job*/
 
-
-#principes-job{
-	padding: 50px 0px 100px;
-}
-
-#principes-job h1{
-	font-size: 140px;
-}
-
-#principes-jobs-summary{
+#principes-job-containers{
 	text-align: center;
 }
-
-#principes-jobs-summary h3{
-	font-size: 30px;
-}
-
 
 /*principes-the-hire-fire*/
+/*Switch*/
 
 #principes-the-hire-fire{
-	padding: 50px 0px 100px;
 	border: 1px solid #eee
-}
-
-#principes-the-hire-fire h1{
-	text-align: center;
-	font-size: 140px;
-}
-
-#hire-container{
-
 }
 
 #fire-container{
 	margin-top: 50px;
 }
 
+#principes-the-consideration-set h1{
+	font-size: 80px;
+}
+
+#switch-container h1{
+	font-size: 150px;
+}
+
+#why-switch h2{
+	text-align: center;
+}
 
 /*principes-big-hire-little-hire*/
 
 #principes-big-hire-little-hire{
-	background-color: #ebdceb;
+	/*background-color: #ebdceb;*/
+	border: 1px solid #eee
 }
+
+#principes-big-hire-little-hire h1{
+	font-size: 100px;
+}
+
+#big-little-hire-container{
+	margin-top: 100px;
+}
+
+/*#big-hire-header{
+	font-size: 150px;
+}
+
+#little-hire-header{
+	font-size: 100px;
+}
+*/
 
 #principes-the-hire-fire img{
 	/*border: 1px solid #BAC8DE;*/
