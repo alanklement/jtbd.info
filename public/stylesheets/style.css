@@ -25,18 +25,22 @@ p{
 
 img{ text-align: center; width: 100%;}
 
+
 section{
 	padding: 50px 0px 100px;
 }
 
 header{
-
+	text-align: center;
+	padding: 100px 0px 150px;	
+	background-color: #607d8b;
+	font-weight: 400; 
+	font-size: 18px;color: #CECECE; 
 }
 
-a:hover{
-	text-decoration:none;
-	color: #934289;
-}
+header h1{ font-style: italic; font-weight: 400; font-size: 150px; color: #b2dfdb; }
+
+a:hover{ text-decoration:none; color: #934289; }
 
 .roboto-font{ font-family: 'Roboto', sans-serif; }
 .block-font{ font-family: 'Fjalla One', sans-serif; }
@@ -45,6 +49,7 @@ a:hover{
 .keyword-link{
 	color: #ff8a65;
 	font-size: 150%;
+	font-weight: 500;
 	/*text-decoration: underline;*/
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
@@ -55,16 +60,9 @@ a:hover{
 .dialog {
 	/*position: relative;*/
 	/*display: inline-block;*/
-	/*width: 300px;*/
-	/*height: 240px;*/
 	/*vertical-align: top;*/
-
-/*	color: #f5f5f5; 
-background-color: #607d8b;*/
-
-
-/*text-align: center;*/
 	background-color: white;
+	margin-bottom: 10px;
 }
 
 .shadowlv0{ box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1); }
@@ -132,18 +130,6 @@ background-color: #607d8b;*/
 
 #who-use-jtbd h1{ font-size: 70px; text-align: center; font-family: 'Shadows Into Light Two', cursive; margin-bottom: 50px;}
 #who-use-jtbd .row{ margin-bottom: 30px; }
-
-/*header-principals*/
-
-
-#header-principals{
-	text-align: center;
-	padding: 100px 0px 150px;	
-	background-color: #607d8b;
-}
-
-#header-principals h1{ font-style: italic; font-weight: 400; font-size: 150px; color: #b2dfdb; }
-#header-principals p{ font-weight: 400; font-size: 18px;color: #CECECE; }
 
 
 /********************principals*/
