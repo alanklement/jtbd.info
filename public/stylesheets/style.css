@@ -55,15 +55,7 @@ a:hover{ text-decoration:none; color: #934289; }
 	border-bottom-style: solid;
 }
 
-/* Card, Dialog */
-
-.dialog {
-	/*position: relative;*/
-	/*display: inline-block;*/
-	/*vertical-align: top;*/
-	background-color: white;
-	margin-bottom: 10px;
-}
+.dialog { background-color: white; margin-bottom: 10px; }
 
 .shadowlv0{ box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1); }
 .shadowlv1{ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
