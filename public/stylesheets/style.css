@@ -11,7 +11,7 @@ h1{ font-size: 48px; color: #505050; font-weight: 300;}
 /*h2{ font-size: 28px; color: #505050; font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}*/
 /*h3{ font-size: 24px; color: #505050; font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}*/
 
-h2{ font-size: 30px; color: #505050; font-weight: 200; margin-bottom: 30px}
+h2{ font-size: 30px; color: #505050; font-weight: 200; margin-bottom: 30px; white-space: nowrap;}
 h3{ font-size: 26px; color: #505050;}
 
 h4{ color: #6D6D6D; font-weight: 300; }
@@ -19,14 +19,14 @@ h4{ color: #6D6D6D; font-weight: 300; }
 p{ font-size: 15px; line-height: 24px; letter-spacing: .1px;  -webkit-font-smoothing: antialiased; }
 
 img{ text-align: center; width: 100%;}
-
-section{ padding: 50px 0px 50px; }
+section{ padding: 50px 0px 50px;}
 
 header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}
-
 header h1{ font-size: 100px; font-style: italic; color: #b2dfdb; }
+header .dialog{background-color: #607d8b};
 
-a:hover{ text-decoration:none; color: #934289; }
+
+a:hover{ text-decoration:none; color: #CFBBCD; }
 
 .roboto-font{ font-family: 'Roboto', sans-serif; }
 .block-font{ font-family: 'Fjalla One', sans-serif; letter-spacing: 1px;}
@@ -36,11 +36,12 @@ a:hover{ text-decoration:none; color: #934289; }
 
 .img-caption{font-size: 14px;}
 
-.dialog { margin-bottom: 10px; padding: 10px 25px 25px; box-sizing: border-box; background-color: white; }
+.dialog { margin-bottom: 10px; padding: 10px 25px 25px; box-sizing: border-box; background-color: white; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px;}
 .dialog > .title { margin-bottom: 20px; }
 
 .green-dialog{ color: #607d8b; }
 .green-dialog p{ font-size: 18px; font-weight: 500;}
+.section-title {color: #b2dfdb;};
 
 .shadowlv0{ box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1); }
 .shadowlv1{ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
@@ -68,188 +69,69 @@ a:hover{ text-decoration:none; color: #934289; }
 
 .nopadding { padding: 0 !important; margin: 0 !important;}
 
-.principals h1{color: #e57e47; font-size: 140px; margin-bottom: 0px;}
-.principals h3{
-	margin: 0px 0px 50px;
-	font-size: 22px;
-	color: #808080;
-	}
-/*.principals h4{margin-top: 50px; text-align: center;}*/
+.who-use-jtbd{ background-color: #CFBBCD}
+
+.principals h1{color: #e57e47; font-size: 80px; margin-bottom: 0px;}
+.principals h3{ margin: 0px 0px 30px; font-size: 22px; color: #808080;}
 .principals small{font-size: 34px;}
+.principals img{ max-width: 500px;}
 .principals .dialog {padding: 0;}
-.principals .horizontal-image{margin-top: 50px;}
+.principals .horizontal-image{margin-bottom: 49px;}
 
-/*.small{ color: rgb(199, 199, 199);}*/
-
-/*****
-****
-*****
-*/
-
-
-/*header*/
+.principals-review{ background-color: #ECF9FF}
 
 #header{ padding-top: 150px; padding-bottom: 100px; color: #f5f5f5; background: #607d8b url(/images/speech-bubbles-50.png) repeat 50% 0;}
 #header h1{ color: #f5f5f5;}
 #header #lead{font-size: 22px; color: white; line-height: 30px; max-width: 650px;}
 
 #questions{background-color: #ECF9FF;}
-#questions img {max-height:440px; max-width:330px; margin-top: -120px;}
-
-/*#framework-intro { background-color: #ECF9FF;  }*/
-/*#framework-intro img{max-width: 570px; max-height: 411px;}*/
-/*#framework-intro h1{font-size: 36px;}*/
-
+#questions img {max-height:400px; max-width:230px; margin-top: -50%;}
 
 #what-focus{text-align: center;}
 
-#who-use-jtbd-intro h1{ font-size: 70px; text-align: center; font-family: 'Shadows Into Light Two', cursive;}
-#principes-job-containers { padding: 0px 100px 0px;}
+#who-use-jtbd-intro h1{ font-size: 50px; text-align: center; font-family: 'Shadows Into Light Two', cursive;}
 
-/*#principes-job-containers img{ max-width: 300px}*/
+#principes-job-containers { text-align: center; margin-top: 49px;}
 
-/*.who-use-jtbd{ background-color: #996D94;}*/
-#principes-job-containers img { padding: 0px 25px;}
-#principes-the-consideration-set img{ max-width: 795px; }
+/*#principes-the-consideration-set h1{ font-size: 80px; }*/
 #principes-forces img{ max-width: 930px; }
 
 
+@media(max-width:767px){
+	section{ padding-top: 25px;}
+	header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}
+	header h1{ font-size: 50px; font-style: italic; color: #b2dfdb; }
 
-.principals{
-	/*padding: 50px 0px 100px;*/
-}
+	h2{white-space: normal;}
 
-.principals h1{
-	/*font-size: 140px;*/
-	/*color: #ff8a65;*/
-}
-
-.principals h3{
-	/*margin-top: 0px;*/
-	/*margin-bottom: 50px;*/
-}
-
-.principals img{
-	/*text-align: center;*/
-	/*width: 100%;*/
-}
-
-
-/*principes-job*/
-
-#principes-job-containers{
-	text-align: center;
-}
-
-/*principes-the-hire-fire*/
-/*Switch*/
-
-#principes-the-hire-fire{
-	border: 1px solid #eee
-}
-
-#fire-container{
-	margin-top: 50px;
-}
-
-#principes-the-consideration-set h1{
-	font-size: 80px;
-}
-
-#switch-container h1{
-	font-size: 150px;
-}
-
-#why-switch h2{
-	text-align: center;
-}
-
-/*principes-big-hire-little-hire*/
-
-#principes-big-hire-little-hire{
-	/*background-color: #ebdceb;*/
-	border: 1px solid #eee
-}
-
-#principes-big-hire-little-hire h1{
-	font-size: 100px;
-}
-
-#big-little-hire-container{
-	margin-top: 100px;
-}
-
-
-/********************practices*/
-
-.practices{
-	padding: 50px 0px 100px;
-}
-
-.practices h1{
-	font-size: 140px;
-	color: #ff8a65;
-}
-
-.practices h3{
-	margin-top: 0px;
-	margin-bottom: 50px;
-}
-
-.practices img{
-	text-align: center;
-	width: 100%;
-}
-
-/*header-practices*/
-
-#header-practices{
-	/*padding: 100px 0px 150px;	*/
-	background-color: #632e5f;
-}
-
-#header-practices h1{
-	font-style: italic;
-	font-weight: 400;
-	font-size: 150px;
-	color: #f78f85;
-}
-
-#header-practices p{
-	font-weight: 400;
-	font-size: 18px;
-	color: #CECECE;
-}
-
-
-
-@media (max-width: 768px) {
-	*{
-		/*text-align: center;*/
-	}
+/*	.principals h3 {
+		margin: 0px 0px 30px;
+		font-size: 22px;
+		color: #808080;
+	}*/
+	#questions img {margin-top: 0;}		
 
 }
 
-@media (min-width: 768px) {
-	p{
-		/*max-width: 400px;*/
-	}
-	h2{
-		/*max-width: 600px;*/
-	}
+@media(min-width:768px){ 	
+	section{ padding-left: 50px; padding-right: 50px; }
+}
+
+@media(min-width:992px){
+	#questions img {margin: -40% 0px 0px 40px;}
+}
+
+@media(min-width:1200px){
+	#questions img {margin-top: -40%; margin-left: 0px;}
+	#principes-job-containers { padding: 0px 100px 0px;}
+	#principes-job-containers img { padding: 0px 25px;}
+}
+
+@media (min-width: 1500px){ 
+	section{ padding-left: 200px; padding-right: 200px; }
+	#questions img {margin-top: -30%;}
 
 }
 
-@media (min-width: 1500px) {
-	
-	section{
-		padding-left: 150px;
-		padding-right: 150px;
-	}
+@media (min-width: 1800px){}
 
-}
-
-@media (min-width: 1800px) {
-	/*#header h1{ margin-top: 75px;}*/
-
-}
