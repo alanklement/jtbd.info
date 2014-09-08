@@ -24,6 +24,7 @@ section{ padding: 50px 0px 50px;}
 header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}
 header h1{ font-size: 100px; font-style: italic; color: #b2dfdb; }
 header .dialog{background-color: #607d8b};
+footer{ background-color: #def6ff}
 
 
 a:hover{ text-decoration:none; color: #CFBBCD; }
@@ -73,22 +74,32 @@ a:hover{ text-decoration:none; color: #CFBBCD; }
 
 .principals h1{color: #e57e47; font-size: 80px; margin-bottom: 0px;}
 .principals h3{ margin: 0px 0px 30px; font-size: 22px; color: #808080;}
-.principals small{font-size: 34px;}
+.principals small{font-size: 25px;}
 .principals img{ max-width: 500px;}
 .principals .dialog {padding: 0;}
 .principals .horizontal-image{margin-bottom: 49px;}
 
+.practices h1{color: #e57e47; font-size: 80px; margin-bottom: 0px;}
+.practices h3{ margin: 0px 0px 30px; font-size: 22px; color: #808080;}
+.practices small{font-size: 25px;}
+/*.practices img{ max-width: 500px;}*/
+.practices .dialog {padding: 0;}
+.practices .horizontal-image{margin-bottom: 49px;}
+
 .principals-review{ background-color: #ECF9FF}
 
-#header{ padding-top: 150px; padding-bottom: 100px; color: #f5f5f5; background: #607d8b url(/images/speech-bubbles-50.png) repeat 50% 0;}
+#header{color: #f5f5f5; background: #607d8b url(/images/speech-bubbles-50.png) repeat 50% 0;}
 #header h1{ color: #f5f5f5;}
 #header #lead{font-size: 22px; color: white; line-height: 30px; max-width: 650px;}
 
 #questions{background-color: #ECF9FF;}
 #questions img {max-height:400px; max-width:230px; margin-top: -50%;}
 
+#framework-intro-copy img{  max-width: 500px; padding-top: 25px;}
+#principes-big-hire-little-hire img{padding-top: 25px;}
 #what-focus{text-align: center;}
 
+#who-use-jtbd-intro{}
 #who-use-jtbd-intro h1{ font-size: 50px; text-align: center; font-family: 'Shadows Into Light Two', cursive;}
 
 #principes-job-containers { text-align: center; margin-top: 49px;}
@@ -97,34 +108,81 @@ a:hover{ text-decoration:none; color: #CFBBCD; }
 #principes-forces img{ max-width: 930px; }
 
 
+header{ padding: 100px 0px 150px;  font-size: 18px;font-weight: 400; text-align: center;}
+
+#learn-more{
+	background-color: #607d8b;
+}
+
+
+#learn-more h1{
+	font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;
+	text-align: center;
+	color: #def6ff;
+
+}
+
+#h1-last{	margin-bottom: 70px;}
+
+#footer{ background-color: #632e5f; }
+
+
+
+
+
+
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+
+
+}
+
+.vcenter2 {
+	float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+
+
 @media(max-width:767px){
 	section{ padding-top: 25px;}
 	header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}
 	header h1{ font-size: 50px; font-style: italic; color: #b2dfdb; }
 
+	h1 {font-size: 45px;}
 	h2{white-space: normal;}
 
-/*	.principals h3 {
-		margin: 0px 0px 30px;
-		font-size: 22px;
-		color: #808080;
-	}*/
-	#questions img {margin-top: 0;}		
+	.principals h1{font-size: 70px;}
+	/*#header{ height: 100vh;};*/
+	#questions img {margin: 0px;}
+	#baloon-container{ text-align: center;}	
+	#principes-the-consideration-set h1 {font-size: 40px;}	
+	/*#principes-the-consideration-set h1 {font-size: 3vh;}	*/
 
 }
 
 @media(min-width:768px){ 	
 	section{ padding-left: 50px; padding-right: 50px; }
+	#questions img {margin-left: 50px;}
+	#header{ padding-top: 15%;};
 }
 
 @media(min-width:992px){
 	#questions img {margin: -40% 0px 0px 40px;}
+	#header{ padding-top: 10%;};
 }
 
 @media(min-width:1200px){
 	#questions img {margin-top: -40%; margin-left: 0px;}
 	#principes-job-containers { padding: 0px 100px 0px;}
 	#principes-job-containers img { padding: 0px 25px;}
+	#header{ padding-top: 150px;};
 }
 
 @media (min-width: 1500px){ 
