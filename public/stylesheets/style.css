@@ -1,48 +1,28 @@
-/*@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Roboto:400,100,100italic,400italic,500,500italic|Fjalla+One);*/
-/*@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700italic,900,900italic,700);
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-/*@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);*/
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 
-body { background-color: #f9f9f9; font-family: 'Roboto', sans-serif;  }
 
-h1{ font-size: 48px; color: #505050; font-weight: 300;}
-/*h2{ font-size: 28px; color: #505050; font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}*/
-/*h3{ font-size: 24px; color: #505050; font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}*/
-
-h2{ font-size: 30px; color: #505050; font-weight: 200; margin-bottom: 30px; white-space: nowrap;}
-h3{ font-size: 26px; color: #505050;}
-
-h4{ color: #6D6D6D; font-weight: 300; }
-
-p{ font-size: 15px; line-height: 24px; letter-spacing: .1px;  -webkit-font-smoothing: antialiased; }
-
-img{ text-align: center; width: 100%;}
-section{ padding: 50px 0px 50px;}
-
-header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}
-header h1{ font-size: 100px; font-style: italic; color: #b2dfdb; }
-header .dialog{background-color: #607d8b};
-footer{ background-color: #def6ff}
-
-
+/*Never changes*/
+body { background-color: #f2f2f2; color: #4E4E4E; font-family: 'Roboto', sans-serif;}
+h1,h2,h3,h4,h5{color: #505050; font-weight: 200;}
+h2, h3{ font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}
 a:hover{ text-decoration:none; color: #CFBBCD; }
 
-.roboto-font{ font-family: 'Roboto', sans-serif; }
-.block-font{ font-family: 'Fjalla One', sans-serif; letter-spacing: 1px;}
-.hand-font{ font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}
+header{color: #f5f5f5;}
+header h2{color: #f5f5f5;}
+header p{ max-width: 100%;}
 
-.keyword-link{ color: #ff8a65; font-size: 150%; font-weight: 500; border-bottom-width: 1px;border-bottom-style: solid;}
+footer{ background-color: #def6ff; padding-top:50px; padding-bottom: 50px;}
 
-.img-caption{font-size: 14px;}
+.is-below-image{margin-top: 30px;}
+.img-caption{font-size: 14px; margin-top: 0px;}
+
+.container-fluid{ padding-left: 0; padding-right: 0;}
 
 .dialog { margin-bottom: 10px; padding: 10px 25px 25px; box-sizing: border-box; background-color: white; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px;}
 .dialog > .title { margin-bottom: 20px; }
-
-.green-dialog{ color: #607d8b; }
-.green-dialog p{ font-size: 18px; font-weight: 500;}
-.section-title {color: #b2dfdb;};
+.dialog h4 { color: #333; }
 
 .shadowlv0{ box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1); }
 .shadowlv1{ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
@@ -51,7 +31,7 @@ a:hover{ text-decoration:none; color: #CFBBCD; }
 .shadowlv4{ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); }
 .shadowlv5{ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); }
 
-.hot{color: #f78f85;}
+.hot{color: #e57e47;}
 .italic{font-style: italic;}
 
 .jtbd-font-100{font-weight: 100;}
@@ -66,130 +46,122 @@ a:hover{ text-decoration:none; color: #CFBBCD; }
 .plus-175{font-size: 175%;}
 .plus-200{font-size: 200%;}
 
-.fa{ color: rgb(219, 217, 217);}
-
+.video{margin-top: 15px;}
+.divider{ color: #709C9E;}
 .nopadding { padding: 0 !important; margin: 0 !important;}
 
-.who-use-jtbd{ background-color: #CFBBCD}
+.constrain-content{margin-left:auto; margin-right:auto; max-width: 970px;}
+
+
+
+/*END Utility*/
+#page-header{text-align: center; padding: 100px 0 150px; }
+#page-header{color: #f5f5f5; background: #217383 url(/images/bubbels-75.png) repeat 50% 0;}
+#page-header h1{ font-size: 80px; color: #f5f5f5;}
+#page-header p{font-size: 22px; font-weight:300; line-height: 30px; margin: 0 auto;}
+#intro img {max-height:500px; max-width:288px; margin-top: -45%;}
+
+#what-focus{margin-bottom: -50px;}
+
+#principals-intro{background: #874484 url(/images/zoom-baloon-05.png) no-repeat 400% 0;}
 
 .principals h1{color: #e57e47; font-size: 80px; margin-bottom: 0px;}
-.principals h3{ margin: 0px 0px 30px; font-size: 22px; color: #808080;}
+.principals h3{ margin: 0px 0px 20px; font-size: 22px; color: #808080;}
 .principals small{font-size: 25px;}
-.principals img{ max-width: 500px;}
-.principals .dialog {padding: 0;}
-.principals .horizontal-image{margin-bottom: 49px;}
 
-.practices h1{color: #e57e47; font-size: 80px; margin-bottom: 0px;}
-.practices h3{ margin: 0px 0px 30px; font-size: 22px; color: #808080;}
-.practices small{font-size: 25px;}
-/*.practices img{ max-width: 500px;}*/
-.practices .dialog {padding: 0;}
-.practices .horizontal-image{margin-bottom: 49px;}
+#principes-job-img-container{ text-align: center; margin-top: 30px;}
+#principes-job-img-container img{ max-width: 250px;}
 
-.principals-review{ background-color: #ECF9FF}
+.horizontal-img-container{ padding-top: 20px; background-color: #e2f3f7;}
+.horizontal-img-container img { width:100%; max-width: 960px; }
 
-#header{color: #f5f5f5; background: #607d8b url(/images/speech-bubbles-50.png) repeat 50% 0;}
-#header h1{ color: #f5f5f5;}
-#header #lead{font-size: 22px; color: white; line-height: 30px; max-width: 650px;}
+#arrow{padding-top: 40px;}
 
-#questions{background-color: #ECF9FF;}
-#questions img {max-height:400px; max-width:230px; margin-top: -50%;}
-
-#framework-intro-copy img{  max-width: 500px; padding-top: 25px;}
-#principes-big-hire-little-hire img{padding-top: 25px;}
-#what-focus{text-align: center;}
-
-#who-use-jtbd-intro{}
-#who-use-jtbd-intro h1{ font-size: 50px; text-align: center; font-family: 'Shadows Into Light Two', cursive;}
-
-#principes-job-containers { text-align: center; margin-top: 49px;}
-
-/*#principes-the-consideration-set h1{ font-size: 80px; }*/
-#principes-forces img{ max-width: 930px; }
-
-
-header{ padding: 100px 0px 150px;  font-size: 18px;font-weight: 400; text-align: center;}
-
-#learn-more{
-	background-color: #607d8b;
-}
-
-
-#learn-more h1{
-	font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;
-	text-align: center;
-	color: #def6ff;
-
-}
-
-#h1-last{	margin-bottom: 70px;}
-
-#footer{ background-color: #632e5f; }
+.hire-fire-switch-img{background-color: #e2f3f7;}
+#principes-hire-fire-switch{padding-top: 0px;}
+#principes-hire-fire-switch img {max-width: 100%;}
 
 
 
+#principes-forces{ }
+#forces-img-container{ margin-top: 50px; padding-top: 0px; background-color: #e2f3f7;}
+#forces-img-container img{width:100%; max-width: 960px; }
+#forces-img-container{padding-bottom: 0px;}
+
+
+#practices-intro{background: #2b88af url(/images/looking-goggles.png) no-repeat 80% 0;}
 
 
 
+#practices-forces-diagram{text-align: center;}
+#practices-forces-diagram img{ max-width: 100%; }
+#practices-timeline{text-align: center;}
+#practices-timeline img{ max-width: 930px; }
+
+#practices-interview-container { text-align: center;}
+#practices-interview-container img{ max-width: 650px; }
+
+#learn-more{padding: 50px 0 150px; margin:50px 0 0;}
+#learn-more{background-color: #387747;}
+
+#learn-more-content{margin-top: -100px;}
+
+#footer{ background-color: #632e5f; color:#8C9DA3; padding: 35px 0px 25px;}
+#footer a{ }
 
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-
-
-}
-
-.vcenter2 {
-	float:none;
-    display:inline-block;
-    vertical-align:middle;
-    margin-right:-4px;
-}
-
-
-
+/* xs */
 @media(max-width:767px){
-	section{ padding-top: 25px;}
-	header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}
-	header h1{ font-size: 50px; font-style: italic; color: #b2dfdb; }
+/*	header{padding: 25px 15px 50px;}
+	section{ padding: 50px 15px 50px;}
+	
+	#baloon-container{text-align: center;}
+	
+	#intro img {max-height:400px; max-width:230px; margin-top: 0%;}
+	#principals-consideration-set img{ max-width:100%;}
+	#principes-forces img{ max-width:100%;}
 
-	h1 {font-size: 45px;}
-	h2{white-space: normal;}
+	#practices-forces-diagram img{ max-width:100%;}
+	#practices-timeline img{ max-width: 100%; }*/
+	/*header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}*/
+	/*header h1{ font-size: 50px; font-style: italic; color: #b2dfdb; }*/
 
-	.principals h1{font-size: 70px;}
+	/*h1 {font-size: 45px;}*/
+	/*h2{white-space: normal;}*/
+
+	/*.principals h1{font-size: 70px;}*/
 	/*#header{ height: 100vh;};*/
-	#questions img {margin: 0px;}
-	#baloon-container{ text-align: center;}	
-	#principes-the-consideration-set h1 {font-size: 40px;}	
+	/*#questions img {margin: 0px;}*/
+	/*#baloon-container{ text-align: center;}	*/
+	/*#principes-the-consideration-set h1 {font-size: 40px;}	*/
 	/*#principes-the-consideration-set h1 {font-size: 3vh;}	*/
 
 }
 
-@media(min-width:768px){ 	
-	section{ padding-left: 50px; padding-right: 50px; }
-	#questions img {margin-left: 50px;}
-	#header{ padding-top: 15%;};
+/* sm */
+@media(min-width:768px){ 
+
 }
 
+/* md+ */
 @media(min-width:992px){
-	#questions img {margin: -40% 0px 0px 40px;}
-	#header{ padding-top: 10%;};
+
+
+	h1{ font-size: 70px;}
+	h2{ font-size: 36px;}
+	h3{ font-size: 28px;}
+	h4{ font-size: 20px;}
+	p{ max-width: 425px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothing: antialiased; }
+	ul {margin-top: 25px;}
+
+	header{padding: 125px 0px 50px;}
+
+	section{margin-top: 50px;};
+	section p{max-width: 450px;}
+
+	/*	.constrain-content{margin-left:auto; margin-right:auto; max-width: 970px;}*/
+
+	/*#questions img {margin: -40% 0px 0px 40px;}*/
+	/*#header{ padding-top: 10%;};*/
 }
-
-@media(min-width:1200px){
-	#questions img {margin-top: -40%; margin-left: 0px;}
-	#principes-job-containers { padding: 0px 100px 0px;}
-	#principes-job-containers img { padding: 0px 25px;}
-	#header{ padding-top: 150px;};
-}
-
-@media (min-width: 1500px){ 
-	section{ padding-left: 200px; padding-right: 200px; }
-	#questions img {margin-top: -30%;}
-
-}
-
-@media (min-width: 1800px){}
 
