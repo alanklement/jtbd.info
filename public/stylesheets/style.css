@@ -1,29 +1,9 @@
+/*Never changes*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700italic,900,900italic,700);
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 
-
-/*Never changes*/
-body { background-color: #f2f2f2; color: #4E4E4E; font-family: 'Roboto', sans-serif;}
-h1,h2,h3,h4,h5{color: #505050; font-weight: 200;}
-h2, h3{ font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}
-a:hover{ text-decoration:none; color: #CFBBCD; }
-
-header{color: #f5f5f5;}
-header h2{color: #f5f5f5;}
-header p{ max-width: 100%;}
-
-footer{ background-color: #def6ff; padding-top:50px; padding-bottom: 50px;}
-
-.is-below-image{margin-top: 30px;}
-.img-caption{font-size: 14px; margin-top: 0px;}
-
-.container-fluid{ padding-left: 0; padding-right: 0;}
-
-.dialog { margin-bottom: 10px; padding: 10px 25px 25px; box-sizing: border-box; background-color: white; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px;}
-.dialog > .title { margin-bottom: 20px; }
-.dialog h4 { color: #333; }
-
+/*ultilty*/
 .shadowlv0{ box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1); }
 .shadowlv1{ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 .shadowlv2{ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
@@ -32,71 +12,58 @@ footer{ background-color: #def6ff; padding-top:50px; padding-bottom: 50px;}
 .shadowlv5{ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); }
 
 .hot{color: #e57e47;}
+
 .italic{font-style: italic;}
 
-.jtbd-font-100{font-weight: 100;}
-.jtbd-font-300{font-weight: 300;}
-.jtbd-font-400{font-weight: 400;}
-.jtbd-font-500{font-weight: 500;}
-.jtbd-font-700{font-weight: 700;}
-.jtbd-font-900{font-weight: 900;}
+	/*.constrain-content{margin-left:auto; margin-right:auto; max-width: 970px;}*/
 
-.plus-125{font-size: 125%;}
-.plus-150{font-size: 150%;}
-.plus-175{font-size: 175%;}
-.plus-200{font-size: 200%;}
+.container-fluid{margin-right: auto;}
+
+/*baseline: colors & fonts*/
+body { background-color: #f2f2f2; color: #4E4E4E; font-family: 'Roboto', sans-serif;}
+h1,h2,h3,h4,h5{color: #505050; font-weight: 200;}
+h2, h3{ font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}
+a:hover{ text-decoration:none; color: #CFBBCD; }
+
+header{color: #f5f5f5;}
+header h2{color: #f5f5f5;}
+footer{ background-color: #def6ff ;}
+
+.dialog { box-sizing: border-box; background-color: white; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px;}
+
+.divider{ color: #709C9E;}
+
+
+/*never change*/
+header p{ max-width: 100%;}
 
 .video{margin-top: 15px;}
-.divider{ color: #709C9E;}
-.nopadding { padding: 0 !important; margin: 0 !important;}
 
-.constrain-content{margin-left:auto; margin-right:auto; max-width: 970px;}
-
-
-
-/*END Utility*/
-#page-header{text-align: center; padding: 100px 0 150px; }
+#page-header{text-align: center;}
 #page-header{color: #f5f5f5; background: #217383 url(/images/bubbels-75.png) repeat 50% 0;}
-#page-header h1{ font-size: 80px; color: #f5f5f5;}
-#page-header p{font-size: 22px; font-weight:300; line-height: 30px; margin: 0 auto;}
-#intro img {max-height:500px; max-width:288px; margin-top: -45%;}
-
-#what-focus{margin-bottom: -50px;}
+#page-header h1{ color: #f5f5f5;}
 
 #principals-intro{background: #874484 url(/images/zoom-baloon-05.png) no-repeat 400% 0;}
 
-.principals h1{color: #e57e47; font-size: 80px; margin-bottom: 0px;}
-.principals h3{ margin: 0px 0px 20px; font-size: 22px; color: #808080;}
-.principals small{font-size: 25px;}
+.principals h1{color: #e57e47; margin-bottom: 0px;}
+.principals h3{color: #808080;}
 
-#principes-job-img-container{ text-align: center; margin-top: 30px;}
-#principes-job-img-container img{ max-width: 250px;}
+#principes-job-img-container{ text-align: center;}
 
-.horizontal-img-container{ padding-top: 20px; background-color: #e2f3f7;}
-.horizontal-img-container img { width:100%; max-width: 960px; }
-
-#arrow{padding-top: 40px;}
+.horizontal-img-container{background-color: #e2f3f7;}
+.horizontal-img-container img { width:100%;}
 
 .hire-fire-switch-img{background-color: #e2f3f7;}
 #principes-hire-fire-switch{padding-top: 0px;}
 #principes-hire-fire-switch img {max-width: 100%;}
 
-
-
-#principes-forces{ }
 #forces-img-container{ margin-top: 50px; padding-top: 0px; background-color: #e2f3f7;}
-#forces-img-container img{width:100%; max-width: 960px; }
+#forces-img-container img{width:100%;}
 #forces-img-container{padding-bottom: 0px;}
-
 
 #practices-intro{background: #2b88af url(/images/looking-goggles.png) no-repeat 80% 0;}
 
-
-
-#practices-forces-diagram{text-align: center;}
 #practices-forces-diagram img{ max-width: 100%; }
-#practices-timeline{text-align: center;}
-#practices-timeline img{ max-width: 930px; }
 
 #practices-interview-container { text-align: center;}
 #practices-interview-container img{ max-width: 650px; }
@@ -112,29 +79,6 @@ footer{ background-color: #def6ff; padding-top:50px; padding-bottom: 50px;}
 
 /* xs */
 @media(max-width:767px){
-/*	header{padding: 25px 15px 50px;}
-	section{ padding: 50px 15px 50px;}
-	
-	#baloon-container{text-align: center;}
-	
-	#intro img {max-height:400px; max-width:230px; margin-top: 0%;}
-	#principals-consideration-set img{ max-width:100%;}
-	#principes-forces img{ max-width:100%;}
-
-	#practices-forces-diagram img{ max-width:100%;}
-	#practices-timeline img{ max-width: 100%; }*/
-	/*header{ padding: 100px 0px 150px; background-color: #607d8b; font-size: 18px;color: #CECECE; font-weight: 400; text-align: center;}*/
-	/*header h1{ font-size: 50px; font-style: italic; color: #b2dfdb; }*/
-
-	/*h1 {font-size: 45px;}*/
-	/*h2{white-space: normal;}*/
-
-	/*.principals h1{font-size: 70px;}*/
-	/*#header{ height: 100vh;};*/
-	/*#questions img {margin: 0px;}*/
-	/*#baloon-container{ text-align: center;}	*/
-	/*#principes-the-consideration-set h1 {font-size: 40px;}	*/
-	/*#principes-the-consideration-set h1 {font-size: 3vh;}	*/
 
 }
 
@@ -146,22 +90,41 @@ footer{ background-color: #def6ff; padding-top:50px; padding-bottom: 50px;}
 /* md+ */
 @media(min-width:992px){
 
-
-	h1{ font-size: 70px;}
+	h1{ font-size: 80px;}
 	h2{ font-size: 36px;}
 	h3{ font-size: 28px;}
 	h4{ font-size: 20px;}
 	p{ max-width: 425px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothing: antialiased; }
 	ul {margin-top: 25px;}
 
-	header{padding: 125px 0px 50px;}
+	header{padding: 125px 0px 50px; }
 
 	section{margin-top: 50px;};
 	section p{max-width: 450px;}
 
-	/*	.constrain-content{margin-left:auto; margin-right:auto; max-width: 970px;}*/
+	.is-below-image{margin-top: 30px;}
+	.img-caption{font-size: 14px; margin-top: 0px;}
 
-	/*#questions img {margin: -40% 0px 0px 40px;}*/
-	/*#header{ padding-top: 10%;};*/
+	.dialog{ margin-bottom: 15px; padding: 10px 25px 15px}
+	.dialog > .title { margin-bottom: 18px; }
+
+
+
+	#page-header{padding: 100px 0 125px; }
+	#page-header p{font-size: 22px; font-weight:300; line-height: 30px; margin: 0 auto;}
+
+	#intro img {max-height:500px; max-width:288px; margin-top: -45%;}
+
+	#what-focus{margin-bottom: -50px;}
+
+	.principals h1{ font-size: 65px;}
+	.principals h3{ margin: 0px 0px 20px; font-size: 22px;}
+
+	#principes-job-img-container{ margin-top: 30px;}
+	#principes-job-img-container img{ max-width: 250px;}
+
+	.horizontal-img-container{ padding-top: 20px;}
+
+	/*#arrow{padding-top: 40px;}*/
 }
 
