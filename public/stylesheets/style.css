@@ -15,12 +15,12 @@
 
 .italic{font-style: italic;}
 
-/*.constrain-content{margin-left:auto; margin-right:auto; max-width: 970px;}*/
-
+/*4E4E4E*/
 /*baseline*/
-body { background-color: #f2f2f2; color: #4E4E4E; }
+body { background-color: #EEEEEE; color: #4E4E4E; }
 h1,h2,h3,h4,h5{color: #505050; font-weight: 200; font-family: 'Roboto', sans-serif;}
 h2, h3{ font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px;}
+
 a:hover{ text-decoration:none; color: #CFBBCD; }
 
 header{color: #f5f5f5;}
@@ -45,8 +45,32 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 #page-header h1{ color: #f5f5f5;}
 #page-header h1{font-size: 75px; font-weight: 300; }
 #page-header p{font-size: 20px; font-weight:300; line-height: 30px; margin: 0 auto;}	
+/*#page-header a{color: #e5e6e6;}*/
+
+/*****************Overrides*/
+
+/*nav*/
+
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a { text-decoration: none; padding: 0.1875rem 1rem;}
+
+.magellan-nav {right: 0;}
+.transparent-nav{background-color: transparent;}
+.transparent-nav a{ color: #e5e6e6}
+.fixed{ ;background-color: #F7F7F7; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.fixed a{ color: #696969}
+.sub-nav{ margin: 0 auto !important; width: -webkit-fit-content; width: -moz-fit-content;width: fit-content; }
 
 
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+	border-radius: 3px;
+	font-weight: normal;
+	background: #80d2e5;
+	padding: 0.1875rem 1rem;
+	cursor: default;
+	color: white;
+}
+
+/*End overrides*/
 
 #principals-intro{ background-color: #5aa5b4;	background-position: -51%; background-repeat: no-repeat;}
 
