@@ -29,7 +29,10 @@ header p{ max-width: 100%;}
 header ul { margin-top: 25px;  margin-left: 0; list-style-type: none;}
 header li  {display: inline-block}
 
-footer{ background-color: #def6ff ;}
+/*aad8b0*/
+/*80d2e5*/
+footer{ background-color: #217383; color:#80d2e5; padding: 35px 0px 25px;}
+footer a{color: #aad8b0}
 p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothing: antialiased; }
 
 
@@ -42,7 +45,10 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 #page-header h1{ color: #f5f5f5;}
 #page-header h1{font-size: 75px; font-weight: 300; }
 #page-header p{font-size: 20px; font-weight:300; line-height: 30px; margin: 0 auto;}	
-#page-header ul{ text-align: center}
+
+
+
+#principals-intro{ background-color: #5aa5b4;	background-position: -51%; background-repeat: no-repeat;}
 
 .principals h1{color: #e57e47; margin-bottom: 0px;}
 .principals h3{color: #808080;}
@@ -72,10 +78,6 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 
 #learn-more-content{margin-top: -100px;}
 
-#footer{ background-color: #632e5f; color:#8C9DA3; padding: 35px 0px 25px;}
-#footer a{ }
-
-
 /*// Small screens*/
 @media only screen { } /* Define mobile styles */
 
@@ -97,11 +99,8 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 	#what-focus{margin-bottom: -50px;}
 
 	#principals-intro{
-		/*background-attachment: scroll, fixed*/
-		background-color: #874484;
 		background-image: url(/images/zoom-baloon-05.png);
 		background-position: -51%;
-		background-repeat: no-repeat;		
 	}
 
 	.principals h1{ font-size: 65px;}
