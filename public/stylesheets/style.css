@@ -72,7 +72,7 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 
 /*End overrides*/
 
-#principals-intro{ background-color: #5aa5b4;	background-position: -51%; background-repeat: no-repeat;}
+#principals-intro{ background-color: #5aa5b4; background-repeat: no-repeat;}
 
 .principals h1{color: #e57e47; margin-bottom: 0px;}
 .principals h3{color: #808080;}
@@ -82,6 +82,9 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 .horizontal-img-container{background-color: #e2f3f7;}
 .horizontal-img-container img { width:100%;}
 
+#consideration-set-container { text-align: center; padding-top: 10px;}
+#consideration-set-container img{max-width: 549px;  }
+
 .hire-fire-switch-img{background-color: #e2f3f7;}
 #principes-hire-fire-switch{padding-top: 0px;}
 #principes-hire-fire-switch img {max-width: 100%;}
@@ -90,7 +93,7 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 #forces-img-container img{width:100%;}
 #forces-img-container{padding-bottom: 0px;}
 
-#practices-intro{background: #2b88af url(/images/looking-goggles.png) no-repeat 80% 0;}
+#practices-intro{background: #71c383; background-repeat: no-repeat;}
 
 #practices-forces-diagram img{ max-width: 100%; }
 
@@ -168,8 +171,13 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 	#what-focus{margin-bottom: -50px;}
 
 	#principals-intro{
-		background-image: url(/images/zoom-baloon-05.png);
-		background-position: -51%;
+		background-image: url(/images/zoom-balloon.png);
+		background-position: 5%;
+	}
+
+	#practices-intro{
+		background-image: url(/images/looking-goggles.png);
+		background-position: 100%;
 	}
 
 	.principals h1{ font-size: 65px;}
@@ -187,7 +195,7 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
 	#principals-intro{
-		background-position: -150%;
+		/*background-position: 200%; */
 	}
 
 }
@@ -195,38 +203,53 @@ p{ max-width: 450px; font-size: 15px;letter-spacing: .1px;  -webkit-font-smoothi
 /*1121px*/
 @media only screen and (min-width: 70.063em) {
 	#principals-intro{
-		background-position: -100%;
+		background-position: 400%; 
+	}
+
+	#practices-intro{
+
+		background-position: 90%;
 	}
 } 
 /*1281*/
 @media only screen and (min-width: 80.063em) {
 	#principals-intro{
-		background-position: 350%;
+		background-position: 160%; 
+	}
+
+	#practices-intro{
+
+		background-position: 80%;
 	}
 } 
 
 /* min-width 1441px, xlarge screens */
 @media only screen and (min-width: 90.063em) {
 	#principals-intro{
-		background-position: 330%;
+		background-position: 140%; 
+	}
+
+		#practices-intro{
+
+		background-position: 70%;
 	}
 } 
 
 @media only screen and (min-width: 100.063em) {
 	#principals-intro{
-		background-position: 380%;
+		background-position: 120%;
 	}
 } 
 
 @media only screen and (min-width: 110.063em) {
 	#principals-intro{
-		background-position: 400%;
+		background-position: 100%;
 	}
 } 
 /* min-width 1921px, xxlarge screens */
 @media only screen and (min-width: 120.063em) { 
 	#principals-intro{
-		background-position: 420%;
+		background-position: 80%;
 	}
 }
 
